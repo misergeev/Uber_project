@@ -1,0 +1,217 @@
+@media (max-width: 1200px)
+	.menu
+		&_item
+			padding-right: 20px
+		&_link
+			font-size: 13px
+
+	.promo
+		&_header
+			font-size: 50px
+
+	.reasons
+		.reasons_block
+			align-items: flex-start
+			.reasons_descr
+				width: 300px
+	
+	.mobile
+		&_item
+			width: 290px
+
+@media (max-width: 991px)
+	.menu
+		&_item
+			padding-right: 9px
+		&_link
+			font-size: 10px
+	
+	.subheader
+		&_logo
+			img
+				width: 100%
+		&_official
+			font-size: 11px
+		&_phone
+			font-size: 18px
+		&_btn
+			width: 100%
+			height: 40px
+			margin-top: 21px
+
+	.promo
+		&_header
+			font-size: 40px
+		&_subheader
+			font-size: 30px
+
+	.reasons
+		.reasons_block
+			flex-direction: column
+			align-items: center
+			.reasons_round
+				margin-right: 0
+			.reasons_descr
+				margin-top: 20px
+				width: 300px
+
+	.mobile
+		&_item
+			width: 210px
+	
+	.choice
+		&_img
+			width: 100%
+				
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: 0
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, .8)
+		transition: 0.6s all
+		&_active
+			left: -100%
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			font-size: 20px
+
+	footer
+		.footer_links
+			width: 340px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 15px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 3px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+
+	.xs-hidden
+		display: none
+
+	.xs-visible
+		display: block
+
+	.subheader
+		&_phone
+			display: block
+			margin: 10px
+			font-size: 18px
+			font-weight: normal
+			text-align: center
+			color: #ffffff
+			text-transform: uppercase
+		&_btn
+			display: block
+			width: 220px
+			height: 40px
+			margin: 0 auto
+	.promo
+		&_header
+			line-height: 45px
+
+	.reasons
+		.reasons_block
+			flex-direction: row
+			.reasons_round
+				margin-right: 26px
+
+@media (max-width: 575px)
+	nav
+		height: 30px
+
+	header
+		height: 30px
+
+	.subheader
+		height: 60px
+		top: 30px
+		&_official
+			display: none
+		&_logo
+			margin-top: 16px
+		&_phone
+			font-size: 12px
+			font-weight: normal
+			text-align: center
+			margin-top: 8px
+		&_btn
+			margin-top: 6px
+			width: 110px
+			height: 22px
+			font-size: 10px
+	
+	.promo
+		min-height: 400px
+		padding: 93px 0 35px 0
+		&_descr
+			display: none
+		&_header
+			font-size: 30px
+			padding: 0 24px
+			line-height: 35px
+		&_subheader
+			margin-top: 33px
+			font-size: 20px
+			line-height: 30px
+			padding: 10px
+		&_btn
+			margin-top: 72px
+
+	.menu
+		&_item
+			width: 100%
+			text-align: center
+			padding: 5px
+		&_link
+			display: block
+
+	.reasons
+		padding: 22px 0 36px 0
+		&_block
+			margin-top: 26px
+		
+	
+	.title
+		font-size: 16px
+		margin-top: 15px
+		line-height: 16px
+	
+	.reasons
+		.reasons_block
+			flex-direction: column
+			.reasons_round
+				width: 100px
+				height: 100px
+				margin-right: 0
+			.reasons_descr
+				margin-top: 27px
+				width: 100%
+				.reasons_subtitle
+					font-size: 16px
